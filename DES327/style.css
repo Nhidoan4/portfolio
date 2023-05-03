@@ -1,0 +1,330 @@
+
+body{
+  height:100%;
+  margin:0;
+  /*width: 1000px;*/
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  background-color:rgb(233, 224, 224);
+  color: black;
+  text-align: justify;
+  cursor: url("images/my-cursor-02-02-02.png"), auto;
+}
+
+a:hover {
+  cursor:url("images/cursor_pointer-02-02-02.png"), auto;
+}
+h1{
+  color:rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 35px;
+  clear: both;
+  text-align: center;
+}
+/*index */
+.iam{
+  color: black;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: center;
+}
+#landingtext{
+  float:left;
+  margin-left: 20px;
+  position: absolute;
+  width: 50%;
+  bottom: 20px;
+  font-weight: lighter;
+}
+.gonext a{
+  text-align: right;
+  clear: both;
+  position:absolute;
+  bottom:8%;
+  width:98%;
+  text-decoration: none;
+  color:#000000;
+}
+.gonext a:hover{
+  color: rgb(187, 152, 233);
+}
+/*header and nav */
+.head{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e3b9e9;
+  height: 35px;
+  z-index: 1;
+
+}
+nav a{
+  float: right;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 15px;
+  }
+nav a:hover {
+  color:rgb(187, 152, 233);
+}
+nav a.active {
+  color:rgb(100, 92, 216);
+  font-weight: bolder;
+}
+.mylogo{
+  float:left;
+  height: 30px;
+}
+#logo a{
+  float: left;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Noto Serif Display', serif;
+  margin-left: 20px;
+  margin-top: 2px;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+/*back to top */
+#thetop{
+  text-align: left;
+}
+/*about */
+.container {
+  position:relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  z-index: -2;
+}
+.para{
+  float:left;
+  text-align: left;
+  width:50%;
+  padding-top: 15px;
+  margin-left: 35%;
+  font-size: 12pt; 
+  position: absolute;
+  top: 60%;
+}
+#posterized{
+  float:right;
+  position: absolute;
+  top:40%;
+  margin-left: 35%;
+  border-radius: 10%;
+  /*left:75%;
+  padding:20px;
+  position: absolute;
+  top:40%;*/
+}
+#bottom{
+  right: 43%;
+  position:absolute;
+  bottom:20px;
+  font-size: larger;
+  font-weight:bold;
+}
+#resume{
+  margin-left: 25%;
+  width:600px;
+  margin-bottom: 80px;
+}
+
+.explore_work a{
+  text-align: right;
+  clear: both;
+  position:absolute;
+  height: 13%;
+  width:98%;
+  text-decoration: none;
+  color:#000000;
+}
+.explore_work a:hover{
+  color: rgb(187, 152, 233);
+}
+
+footer{
+  background-color: rgb(250, 241, 229);
+  clear: both;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height: 30px;
+}
+#copy{
+text-align: center;
+position: bottom;
+}
+
+.contact{
+  float: right;
+}
+
+.center{
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 33%; 
+  flex: 25%;
+  max-width: 33%;
+  padding: 0 4px;
+  margin-bottom: 5%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+div.desc {
+  padding: 15px;
+  text-align: left;
+  font-size: smaller;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 60%;
+    flex: 50%;
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.whydesign a{
+    text-align: right;
+    clear: both;
+    position:absolute;
+    height: 13%;
+    width:98%;
+    text-decoration: none;
+    color:#000000;
+  }
+  .whydesign a:hover{
+    color: rgb(187, 152, 233);
+  }
+  
+.whypara1{
+  text-align: left;
+  padding: 20px;
+  color:black;
+  width: 400px;
+  font-size: 10pt; 
+  position: absolute;
+  top: 320px;
+  left: 10%;
+}
+#why{
+  float: right;
+  width:300px;
+  position: absolute;
+  top:40%;
+  right:10%;
+  border-radius: 20px;
+
+}
+.whypara2{
+  text-align: left;
+  padding: 20px;
+  color:black;
+  width: 400px;
+  font-size: 10pt; 
+  position: absolute;
+  bottom: 330px;
+  left: 10%;
+}
+
+.contactme a{
+  float:right;
+  position:relative;
+  text-align: right;
+  margin-bottom:5%;
+  clear: both;
+  margin-right: 2%;
+  z-index: 0;
+  text-decoration: none;
+  color:black;
+}
+
+.contactme a:hover {
+  color: rgb(187, 152, 233);
+}
+
+
+#img-contact{
+  width:100%;
+  margin-top:50px;
+  margin-bottom: 100px;
+}
+#contact-title{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+#footer-contact{
+  height: 5%;
+}
+
+.contactinfo {
+  float:left;
+  position:absolute;
+  top: 95%;
+  text-align: left;
+  margin-left: 15%;
+  z-index: 0;
+}
+
+.contactinfo a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactinfo a:hover{
+  color: rgb(187, 152, 233);
+}
+
+#intouch{
+color: rgb(187, 152, 233)
+}
+
+.backhome a{
+  float:right;
+  position:relative;
+  text-align: right;
+  margin-bottom:5%;
+  clear: both;
+  margin-right: 2%;
+  z-index: 0;
+  text-decoration: none;
+  color:black;
+}
+.backhome a:hover{
+  color: rgb(187, 152, 233);
+}
